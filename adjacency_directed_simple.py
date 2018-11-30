@@ -120,10 +120,10 @@ def validate_graph(graph):
 
 
 def driver_code():
-    filename = 'Wiki-Vote.txt'
+    filename = 'edges.txt'
     try:
-        source_vertex = '6469'
-        destination_vertex = '825'
+        source_vertex = '2'
+        destination_vertex = '15'
         graph = read_data(filename)
         validate_graph(graph)
         print("")
